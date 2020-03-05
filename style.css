@@ -1,0 +1,48 @@
+body {
+    height: 150vh;
+}
+
+.wrap {
+    margin: 20px 70px;
+}
+
+.wrap article p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+
+i {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1;
+    /* transform: rotate(180deg); */
+    transition: .5s;
+
+}
+
+i.on {
+    position: fixed;
+    right: 50px;
+    transform: rotate(180deg);
+    bottom: 320px;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: black;
+    transition: .5s;
+
+}
+
+nav.on {
+    height: 300px;
+}
